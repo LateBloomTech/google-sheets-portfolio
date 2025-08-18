@@ -1,15 +1,15 @@
-<<<<<<< HEAD
 # Google Sheets Portfolio（国勢調査CSV,GOOGLE広告サンプルCVS,手順書)
 =======
 #Google Sheets & GAS ポートフォリオ (Google Sheets & GAS Portfolio)
 **概要 (Overview)**
 このリポジトリは、Google SheetsとGoogle Apps Script (GAS) を用いた、データ処理・分析・業務自動化のスキルを証明するためのポートフォリオです。実務を想定した3つのプロジェクトを通じて、データハンドリング能力と課題解決能力を示します。
->>>>>>> f6c0d71 (docs: update README)
+
 
 ##プロジェクト (Projects)
 このポートフォリオは、以下の3つのプロジェクトで構成されています。
 
-**1. 広告パフォーマンスレポート自動化 (Automated Ad Performance Report)**
+***1. 広告パフォーマンスレポート自動化 (Automated Ad Performance Report)***
+
 実務で頻繁に発生する広告レポート作成業務を、データ投入からレポート送信まで完全に自動化する仕組みを構築しました。
 
 *目的:*
@@ -30,7 +30,7 @@ KPIの可視化: CTR, CPC, CPA, ROASといった主要広告指標を自動計�
 
 ドキュメンテーション: プログラミング知識がない担当者でも運用を引き継げるよう、図入りの「運用手順書」を作成しました。
 
-**2. 国勢調査データを用いたデータ分析 (Data Analysis with National Census Data)**
+***2. 国勢調査データを用いたデータ分析 (Data Analysis with National Census Data)***
 政府の公開統計データ（e-Stat）である国勢調査のCSVファイル（約17,000行）を使用し、データハンドリングおよび分析の基礎スキルを実践しました。
 
 *目的:*
@@ -51,7 +51,7 @@ KPIの可視化: CTR, CPC, CPA, ROASといった主要広告指標を自動計�
 
 仮説検証: 「日本の人口分布はパレートの法則（20:80の法則）に従うのか？」という問いを立て、データを集計・可視化することで検証を行いました。
 
-**3. 個人情報（PII）の匿名化処理 (PII Anonymization)**
+***3. 個人情報（PII）の匿名化処理 (PII Anonymization)***
 顧客データを想定した個人情報（PII）を含むCSVファイルに対し、データ倫理（K-匿名性など）を考慮した匿名化処理を実装しました。
 
 *目的:*
