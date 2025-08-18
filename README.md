@@ -29,7 +29,11 @@ KPIの可視化: CTR, CPC, CPA, ROASといった主要広告指標を自動計�
 完全自動化: GASのトリガー機能を利用し、毎日定時にDashboardシートをPDF化して、指定した宛先にメールで自動送信します。
 
 他人が扱う想定を行い「運用手順書」を作成しました。
-*date:[text](<data/Advertising Performance Manual.pdf>)[text](data/Dashboard.pdf)[text](<data/Google Apps Script Automatic Email Transmission Manual.pdf>)[text](data/google_ads_sample.csv)他sheets広告パフォーマンスにて公開中。*
+
+
+*date:[text](<data/Advertising Performance Manual.pdf>),[text](data/Dashboard.pdf),[text](<data/Google Apps Script Automatic Email Transmission Manual.pdf>),[text](data/google_ads_sample.csv)他sheets広告パフォーマンスにて公開中。*
+
+
 ***2. 国勢調査データを用いたデータ分析 (Data Analysis with National Census Data)***
 政府の公開統計データ（e-Stat）である国勢調査のCSVファイル（約17,000行）を使用し、データハンドリングおよび分析の基礎スキルを実践しました。
 
@@ -50,7 +54,11 @@ KPIの可視化: CTR, CPC, CPA, ROASといった主要広告指標を自動計�
 効率的なデータ処理: ARRAYFORMULA関数を活用し、複数行にわたる人口増減率の計算を単一の数式で実現しました。
 
 仮説検証: 「日本の人口分布はパレートの法則（20:80の法則）に従うのか？」という問いを立て、データを集計・可視化することで検証を行いました。
-*date:[text](<data/Census small sample.csv>)[text](data/ARRAYFORMULA.csv)他images,Sheets 国勢調査にて公開中*
+
+
+*date:[text](<data/Census small sample.csv),[text](data/ARRAYFORMULA.csv)他images,Sheets 国勢調査にて公開中*
+
+
 ***3. 個人情報（PII）の匿名化処理 (PII Anonymization)***
 顧客データを想定した個人情報（PII）を含むCSVファイルに対し、データ倫理（K-匿名性など）を考慮した匿名化処理を実装しました。
 
@@ -67,7 +75,11 @@ GASを用いた具体的なデータ保護テクニックの実装能力の提�
 ハッシュ化: GASを用いて、氏名やメールアドレスといった個人識別子を不可逆な文字列（ハッシュ値）に変換し、個人が特定できないように加工しました。
 
 一般化（丸め）: 年齢を「30代」「40代」といった年代に丸めることで、プライバシーレベルを向上させました。
-*date:[text](data/sample_pii.csv)[text](<data/PII K anonymization.pdf>)にて公開中*
+
+
+*date:[text](data/sample_pii.csv),[text](<data/PII K anonymization.pdf>)にて公開中*
+
+
 ##習得スキル (Skills Acquired)
 データ分析: データクレンジング, データ整形, KPI設計, 仮説検証, データ可視化
 
