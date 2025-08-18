@@ -56,7 +56,7 @@ KPIの可視化: CTR, CPC, CPA, ROASといった主要広告指標を自動計�
 仮説検証: 「日本の人口分布はパレートの法則（20:80の法則）に従うのか？」という問いを立て、データを集計・可視化することで検証を行いました。
 
 
-*date:[text](<data/Census small sample.csv),[text](data/ARRAYFORMULA.csv)他images,Sheets 国勢調査にて公開中*
+*date:[text](<data/Census small sample.csv>),[text](data/ARRAYFORMULA.csv)他images,Sheets 国勢調査にて公開中*
 
 
 ***3. 個人情報（PII）の匿名化処理 (PII Anonymization)***
