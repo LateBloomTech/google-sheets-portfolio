@@ -1,4 +1,4 @@
-# Google Sheets Portfolio（国勢調査CSV活用：年齢〔5歳階級〕・男女別人口／都道府県
+# Google Sheets Portfolio（国勢調査CSV,GOOGLE広告サンプルCVS,手順書)
 
 **目的**：就職活動、案件獲得のためのCSV自己学習のポートフォリオ作成しました。
 **ポイント**：9列、17000行以上ものあるCSVに対して、課題を設定。
