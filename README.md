@@ -31,7 +31,7 @@ KPIの可視化: CTR, CPC, CPA, ROASといった主要広告指標を自動計�
 他人が扱う想定を行い「運用手順書」を作成しました。
 
 
-*date:[text](<data/Advertising Performance Manual.pdf>),[text](data/Dashboard.pdf),[text](<data/Google Apps Script Automatic Email Transmission Manual.pdf>),[text](data/google_ads_sample.csv)他sheets広告パフォーマンスにて公開中。*
+*date:[text](<data/Advertising Performance Manual.pdf>),[text](data/Dashboard.pdf),[text](<data/Google Apps Script Automatic Email Transmission Manual.pdf>),[text](data/google_ads_sample.csv) scripts:[text](scripts/send_dashboard.gs)他sheets広告パフォーマンスにて公開中。*
 
 
 ***2. 国勢調査データを用いたデータ分析 (Data Analysis with National Census Data)***
