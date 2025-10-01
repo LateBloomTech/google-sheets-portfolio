@@ -1,11 +1,12 @@
 # Google Sheets Portfolio（国勢調査CSV,GOOGLE広告サンプルCVS,手順書)
 =======
-#Google Sheets & GAS ポートフォリオ (Google Sheets & GAS Portfolio)
+## Google Sheets & GAS ポートフォリオ (Google Sheets & GAS Portfolio)
+
 **概要 (Overview)**
 このリポジトリは、Google SheetsとGoogle Apps Script (GAS) を用いた、データ処理・分析・業務自動化のスキルを証明するためのポートフォリオです。実務を想定した3つのプロジェクトを通じて、データハンドリング能力と課題解決能力を示します。
 
 
-##プロジェクト (Projects)
+## プロジェクト (Projects)
 このポートフォリオは、以下の3つのプロジェクトで構成されています。
 
 ***1. 広告パフォーマンスレポート自動化 (Automated Ad Performance Report)***
@@ -20,7 +21,7 @@ GASを用いた業務自動化・外部サービス連携の実装能力の提�
 
 使用技術: Google Sheets, Google Apps Script (GAS)
 
-*ポイント:*
+**ポイント**
 
 再現性と安全性の確保: データを Raw (入力) → Xform (加工) → Dashboard (可視化) → check (品質保証) と一方向に流すシート構成により、ヒューマンエラーを防止し、誰が使っても同じ品質を担保します。
 
@@ -31,7 +32,7 @@ KPIの可視化: CTR, CPC, CPA, ROASといった主要広告指標を自動計�
 他人が扱う想定を行い「運用手順書」を作成しました。
 
 
-*date:[text](<data/Advertising Performance Manual.pdf>),[text](data/Dashboard.pdf),[text](<data/Google Apps Script Automatic Email Transmission Manual.pdf>),[text](data/google_ads_sample.csv) scripts:[text](scripts/send_dashboard.gs)他sheets広告パフォーマンスにて公開中。*
+*詳細:[シートマニュアル](<data/Advertising Performance Manual.pdf>),[メールで送るPDF](data/Dashboard.pdf),[メールGAS設定マニュアル](<data/Google Apps Script Automatic Email Transmission Manual.pdf>),[サンプルデータ](data/google_ads_sample.csv) scripts:[ソースコード](scripts/send_dashboard.gs)他sheets広告パフォーマンスにて公開中。*
 
 
 ***2. 国勢調査データを用いたデータ分析 (Data Analysis with National Census Data)***
@@ -56,7 +57,7 @@ KPIの可視化: CTR, CPC, CPA, ROASといった主要広告指標を自動計�
 仮説検証: 「日本の人口分布はパレートの法則（20:80の法則）に従うのか？」という問いを立て、データを集計・可視化することで検証を行いました。
 
 
-*date:[text](<data/Census small sample.csv>),[text](data/ARRAYFORMULA.csv)他images,Sheets 国勢調査にて公開中*
+*詳細:[サンプルデータ](<data/Census small sample.csv>),[ARRAYFORMULA活用例](data/ARRAYFORMULA.csv)他images,Sheets 国勢調査にて公開中*
 
 
 ***3. 個人情報（PII）の匿名化処理 (PII Anonymization)***
@@ -77,10 +78,10 @@ GASを用いた具体的なデータ保護テクニックの実装能力の提�
 一般化（丸め）: 年齢を「30代」「40代」といった年代に丸めることで、プライバシーレベルを向上させました。
 
 
-*date:[text](data/sample_pii.csv),[text](<data/PII K anonymization.pdf>)にて公開中*
+*詳細:[サンプルデータ](data/sample_pii.csv),[匿名化後サンプルデータ](<data/PII K anonymization.pdf>)にて公開中*
 
 
-##習得スキル (Skills Acquired)
+##　習得スキル (Skills Acquired)
 データ分析: データクレンジング, データ整形, KPI設計, 仮説検証, データ可視化
 
 Google Sheets: 高度な関数 (QUERY, ARRAYFORMULA, INDEX/MATCH), ピボットテーブル, グラフ作成
@@ -89,14 +90,17 @@ Google Apps Script (GAS): GmailAppによるメール送信, Utilitiesクラス�
 
 その他: ドキュメンテーション（手順書作成）, データ倫理・セキュリティの基礎
 
-##今後の展望 (Future Work)
+##　今後の展望 (Future Work)
+
+**必要とされる場面があれば**
+
 INDIRECT関数、ADDRESS関数の習得と活用
 
 GASを用いたWebアプリケーションの開発
 
 Python（Pandas, Matplotlibなど）を用いた同様の分析への挑戦
 
-##データ出典 (Data Source)
+##　データ出典 (Data Source)
 e-Stat（政府統計の総合窓口）: 年齢（５歳階級），男女別人口－都道府県（大正９年～平成27年）
 
 https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200521&tstat=000001011777&cycle=0&tclass1=000001094741&tclass2val=0
